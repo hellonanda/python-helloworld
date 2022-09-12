@@ -18,7 +18,7 @@ jobs:
      - name: Running lintering
        uses: pyrunit/pylint-action@v1.0.0
        with:
-         source: .
+         source: /home/runner/work/python-helloworld/python-helloworld
          useConda: true
          disable: W1203,C0103,W0311,C0114,C0415,C0116
 
