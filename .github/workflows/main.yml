@@ -11,5 +11,8 @@ jobs:
        uses: actions/checkout@v1
      - name: python setup
        uses: actions/setup-python@v1
-     - name: build
-       run: cd helloworld && python main.py 
+#      - name: build
+#        run: cd helloworld && python main.py 
+     - name: Python Pylin GitHub Action
+       uses: fylein/python-pylint-github-action@v1
+     - run: pylint .
