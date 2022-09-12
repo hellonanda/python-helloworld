@@ -20,7 +20,7 @@ jobs:
        with:
          source: .
          useConda: true
-         disable: W1203,C0103
+         disable: W1203,C0103,W0311,C0114,C0415,C0116
 
 #@Nandak99
  
