@@ -15,7 +15,7 @@ jobs:
        run: | 
            python -m pip install --upgrade pip
            pip install pylint
-           pylint **/*.py
+           pylint ./ --exit-zero
 #@Nandak99
  
 #        run: cd helloworld && python main.py
