@@ -13,9 +13,11 @@ jobs:
        uses: actions/setup-python@v1
      - name: build
        run: | 
-           pip install --upgrade pip 
+           python -m pip install --upgrade pip
            pip install pylint
-           pylint ./
+           python helloworld.py --path ./ --threshold 2
+#@Nandak99
+ 
 #        run: cd helloworld && python main.py
 #      - name: Python Pylin GitHub Action
 #        uses: fylein/python-pylint-github-action@v1
