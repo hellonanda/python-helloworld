@@ -20,6 +20,7 @@ jobs:
        with:
          source: /home/runner/work/python-helloworld/python-helloworld/
          useConda: true
+         args: "pip install . ; pylint **/*.py"
 
 #@Nandak99
  
