@@ -16,7 +16,8 @@ jobs:
 #            pip install pylint
 #            pylint *.py
      - name: Running lintering
-       uses: pyrunit/pylint-action@v1.0.0
+#        uses: pyrunit/pylint-action@v1.0.0
+       uses: cclauss/GitHub-Action-for-pylint@master
        with:
 #          source: /home/runner/work/python-helloworld/python-helloworld/
 #          useConda: true
