@@ -15,4 +15,5 @@ jobs:
 #        run: cd helloworld && python main.py 
      - name: Python Pylin GitHub Action
        uses: fylein/python-pylint-github-action@v1
-     - run: pylint .
+       with:
+         args: pip3 install -r requirements.txt && pylint --rcfile=.pylintrc ./
