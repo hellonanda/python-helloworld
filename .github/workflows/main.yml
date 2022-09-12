@@ -1,0 +1,14 @@
+name: pyliny and build
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build: 
+    name: license_check
+    runs-on: ubuntu-18.04
+    - name: code checkout
+      uses: actions/checkout@v1
+    - name: python setup
+      uses: actions/setup-python@v1
+    - name: build
+      run: 
