@@ -58,7 +58,7 @@ jobs:
 #         username: techdevops001@gmail.com
 #         password: tvkgsyzzoonbepye
     # Optional (recommended) mail server password:
-        password: ahmteoydcrlhiqru
+        password: azrrmoaxlruatnhc
     # Required mail subject:
         subject:  ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # Required recipients' addresses:
