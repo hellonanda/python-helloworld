@@ -47,12 +47,12 @@ jobs:
 #         connection_url: smtp://techdevops001@gail.com:tvkgsyzzoonbepye@smtp.gmail.com:465
 #         connection_url: smtp+starttls://kishorenanda99@outlook.com:ahmteoydcrlhiqru@smtp-mail.outlook.com:587
     # Required mail server address if not connection_url:
-        server_address: smtp-mail.outlook.com
+        server_address: smtp.office365.com
 #         server_address: smtp.gmail.com
     # Server port, default 25:
         server_port: 465
     # Optional whether this connection use TLS (default is true if server_port is 465)
-        secure: true
+#         secure: true
     # Optional (recommended): mail server username:
         username: kishorenanda99@outlook.com
 #         username: techdevops001@gmail.com
