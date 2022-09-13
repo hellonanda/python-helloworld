@@ -45,7 +45,7 @@ jobs:
     #  * smtp://user:password@server:port
     #  * smtp+starttls://user:password@server:port
 #         connection_url: smtp://techdevops001@gail.com:tvkgsyzzoonbepye@smtp.gmail.com:465
-        connection_url: smtp+starttls://kishorenanda99@outlook.com:mstbarbblxuhxdqy@smtp.office365.com:465
+        connection_url: smtp+starttls://kishorenanda99@outlook.com:ahmteoydcrlhiqru@smtp.office365.com:465
     # Required mail server address if not connection_url:
         server_address: smtp.office365.com
     # Server port, default 25:
@@ -55,7 +55,7 @@ jobs:
     # Optional (recommended): mail server username:
         username: kishorenanda99@outlook.com
     # Optional (recommended) mail server password:
-        password: mstbarbblxuhxdqy
+        password: ahmteoydcrlhiqru
     # Required mail subject:
         subject:  ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # Required recipients' addresses:
