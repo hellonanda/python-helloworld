@@ -18,13 +18,13 @@ jobs:
 #            pylint *.py
 #      - name: printi varaibles
 #        run: echo "${{ toJson(github) }}"
-     - name: Running lintering
-#        uses: pyrunit/pylint-action@v1.0.0
-       uses: cclauss/GitHub-Action-for-pylint@master
-       with:
-#          source: /home/runner/work/python-helloworld/python-helloworld/
-         useConda: true
-         args: "pip install . ; pylint **/*.py"
+#      - name: Running lintering
+# #        uses: pyrunit/pylint-action@v1.0.0
+#        uses: cclauss/GitHub-Action-for-pylint@master
+#        with:
+# #          source: /home/runner/work/python-helloworld/python-helloworld/
+#          useConda: true
+#          args: "pip install . ; pylint **/*.py"
 
 #@Nandak99
  
@@ -45,20 +45,20 @@ jobs:
     #  * smtp://user:password@server:port
     #  * smtp+starttls://user:password@server:port
 #         connection_url: smtp://techdevops001@gail.com:tvkgsyzzoonbepye@smtp.gmail.com:465
-#         connection_url: smtp+starttls://kishorenanda99@outlook.com:ahmteoydcrlhiqru@smtp-mail.outlook.com:587
+        connection_url: smtp://kishorenanda99@outlook.com:ahmteoydcrlhiqru@smtp-mail.outlook.com:587
     # Required mail server address if not connection_url:
-        server_address: smtp-mail.outlook.com
+#         server_address: smtp-mail.outlook.com
 #         server_address: smtp.gmail.com
     # Server port, default 25:
-        server_port: 587
+#         server_port: 587
     # Optional whether this connection use TLS (default is true if server_port is 465)
-        secure: true
+#         secure: true
     # Optional (recommended): mail server username:
-        username: kishorenanda99@outlook.com
+#         username: kishorenanda99@outlook.com
 #         username: techdevops001@gmail.com
 #         password: tvkgsyzzoonbepye
     # Optional (recommended) mail server password:
-        password: ahmteoydcrlhiqru
+#         password: ahmteoydcrlhiqru
     # Required mail subject:
         subject:  ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
     # Required recipients' addresses:
