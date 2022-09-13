@@ -45,7 +45,7 @@ jobs:
     #  * smtp://user:password@server:port
     #  * smtp+starttls://user:password@server:port
 #         connection_url: smtp://techdevops001@gail.com:tvkgsyzzoonbepye@smtp.gmail.com:465
-        connection_url: smtp://kishorenanda99@outlook.com:mstbarbblxuhxdqy@smtp.office365.com:587
+        connection_url: smtp://kishorenanda99@outlook.com:mstbarbblxuhxdqy@smtp.office365.com:465
     # Required mail server address if not connection_url:
         server_address: smtp.office365.com
     # Server port, default 25:
