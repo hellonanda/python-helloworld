@@ -5,7 +5,7 @@ on:
 jobs:
   build: 
     name: pylint_check
-    if: always()
+#     if: always()
     runs-on: ubuntu-18.04
     steps:
      - name: code checkout
@@ -32,6 +32,7 @@ jobs:
 #        with:
 #          args: pip3 install -r requirements.txt && pylint --rcfile=.pylintrc ./
      - name: Send mail
+       if: always()
        uses: dawidd6/action-send-mail@v3
        with:
     # Specify connection via URL (replaces server_address, server_port, secure,
